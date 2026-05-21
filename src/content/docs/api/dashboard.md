@@ -1,3 +1,7 @@
+---
+title: Dashboard API
+---
+
 # Dashboard API
 
 Public REST API for the Ticket-v2 dashboard.

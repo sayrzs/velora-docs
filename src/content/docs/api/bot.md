@@ -1,3 +1,7 @@
+---
+title: Bot API
+---
+
 # Bot API
 
 Internal API for bot-to-dashboard communication.

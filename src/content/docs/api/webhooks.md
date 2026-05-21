@@ -1,3 +1,7 @@
+---
+title: Webhooks
+---
+
 # Webhooks
 
 Configure external webhooks to receive ticket events.
