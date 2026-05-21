@@ -1,12 +1,12 @@
-# Ticket-v2 Documentation
+# Velora Tickets Documentation
 
-Official documentation for Ticket-v2, a Discord ticket bot system.
+Official documentation for Velora Tickets, a Discord ticket bot system.
 
 ---
 
 ## Fork Notice
 
-This repository is forked from [aoi.js/website](https://github.com/aoijs/website) and customized for the Ticket-v2 project.
+This repository is forked from [aoi.js/website](https://github.com/aoijs/website) and customized for the Velora Tickets project.
 
 ---
 
