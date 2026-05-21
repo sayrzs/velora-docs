@@ -1,88 +1,47 @@
 <br/>
 
 <div align="center" style="margin: 30px;">
-<a href="https://aoi.js.org/">
-  <img src="https://github.com/aoijs/website/blob/master/assets/images/aoijs-banner.png?raw=true"   style="width:350px;" align="center"  alt="aoi.js"/>
-</a>
-<br />
-<br />
-
-<div align="center"><strong>aoi.js Official Documentation</strong><br />
+<strong>Ticket-v2 Official Documentation</strong><br />
 <div align="center">
-    <a href="https://aoi.js.org/invite">Discord</a> |
-    <a href="https://aoi.js.org/">Documentation</a> <br /> <br />
+    <a href="https://discord.gg/tHwtjXhUHf">Discord</a> |
+    <a href="https://docs.oriaxen.com">Documentation</a> <br /> <br />
 </div>
 </div>
 <br />
-</div>
 
-## ❓ What is aoi.js?
+---
 
-aoi.js is a JavaScript library that is designed to make it easy to build Discord bots. It is open-source and free to
-use, and provides a simple, easy-to-use interface for interacting with the Discord API and handling events. aoi.js is
-suitable for beginners who are new to building bots, as well as experienced developers who want to save time and
-streamline their workflow.
+## 🍴 Fork Notice
 
-## 🚀 Setup
+This documentation site is forked from [aoi.js/website](https://github.com/aoijs/website) and customized for the Ticket-v2 project. We thank the aoi.js team for their excellent documentation framework.
 
-```javascript
-const { AoiClient } = require("aoi.js");
+## ❓ What is Ticket-v2?
 
-const client = new AoiClient({
-    token: "Discord Bot Token",
-    prefix: "Discord Bot Prefix",
-    intents: ["MessageContent", "Guilds", "GuildMessages"],
-    events: ["onMessage", "onInteractionCreate"],
-    database: {
-        type: "aoi.db",
-        db: require("@aoijs/aoi.db"),
-        dbType: "KeyValue",
-        tables: ["main"],
-        securityKey: "a-32-characters-long-string-here"
-    }
-});
+Ticket-v2 is a powerful Discord ticket bot system with advanced features including:
+- Multi-language support
+- Premium tiers with advanced features
+- AI-powered analytics
+- Custom embed builder
+- Staff management and tracking
+- And much more
 
-// Ping Command
-client.command({
-  name: "ping",
-  code: `Pong! $pingms`
-});
-```
+## 🚀 Getting Started
 
-### Interaction Command Setup
-
-```javascript
-const { AoiClient } = require("aoi.js");
-
-const client = new AoiClient({
-    token: "Discord Bot Token",
-    prefix: "Discord Bot Prefix",
-    intents: ["MessageContent", "Guilds", "GuildMessages"],
-    events: ["onMessage", "onInteractionCreate"],
-    database: {
-        type: "aoi.db",
-        db: require("@aoijs/aoi.db"),
-        dbType: "KeyValue",
-        tables: ["main"],
-        securityKey: "a-32-characters-long-string-here"
-    }
-});
-
-// Create Interaction Ping Command
-client.command({
-  name: "create",
-  code: `$createApplicationCommand[$guildID;ping;Pong!;true;true;slash]`
-});
-```
+Visit [docs.oriaxen.com](https://docs.oriaxen.com) for the full documentation.
 
 ## 🐛 Contribution
 
-[Refer to contribution documentation for more information](https://github.com/aoijs/aoi.js/blob/v6/.github/CONTRIBUTING.md)
+This is a fork of the original aoi.js website. For contributions to the original project, please visit:
+[aoi.js Contribution Documentation](https://github.com/aoijs/aoi.js/blob/v6/.github/CONTRIBUTING.md)
 
-### 🧑‍💻 Aoi.js
+### 🧑‍💻 Original Contributors
 
 [![aoijs/aoi.js](https://contrib.rocks/image?repo=aoijs/aoi.js)](https://github.com/aoijs/aoi.js)
 
-### 📄 Documentation
+### 📄 Original Documentation
 
 [![aoijs/website](https://contrib.rocks/image?repo=aoijs/website)](https://github.com/aoijs/website)
+
+### 🎫 Ticket-v2
+
+Customized and maintained by [Oriaxen](https://oriaxen.com)

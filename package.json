@@ -1,7 +1,7 @@
 {
-  "name": "aoi.js-website",
-  "version": "0.0.0",
-  "description": "Offical aoi.js Documentation.",
+  "name": "ticket-v2-docs",
+  "version": "1.0.0",
+  "description": "Official Ticket-v2 Documentation - Forked from aoi.js website",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,8 +10,8 @@
     "build": "astro build",
     "preview": "astro preview"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["ticket", "discord", "bot", "documentation"],
+  "author": "Oriaxen",
   "license": "ISC",
   "dependencies": {
     "@astrojs/check": "^0.9.3",

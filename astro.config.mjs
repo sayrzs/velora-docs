@@ -10,7 +10,7 @@ import starlightSidebarTopics from "starlight-sidebar-topics";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
 export default defineConfig({
-  site: "https://aoi.js.org",
+  site: "https://docs.oriaxen.com",
   devToolbar: {
     enabled: false,
   },
@@ -24,202 +24,129 @@ export default defineConfig({
         starlightImageZoom(),
         starlightSidebarTopics([
           {
-            label: "Guides",
+            label: "Getting Started",
             icon: "open-book",
             link: "/guides/",
             items: [
               {
-                label: "Get Started",
-                link: "/guides",
+                label: "Introduction",
+                link: "/guides/introduction",
               },
               {
-                label: "Client",
-                autogenerate: {
-                  directory: "guides/client",
-                },
-                collapsed: false,
+                label: "Installation",
+                link: "/guides/installation",
               },
               {
-                label: "Application Commands",
-                autogenerate: {
-                  directory: "guides/application",
-                },
-                collapsed: true,
-              },
-              {
-                label: "Others",
-                items: [
-                  {
-                    label: "Character Escaping",
-                    link: "/guides/other/character-escaping",
-                  },
-                  { label: "Discord Events", link: "/guides/other/events" },
-                  {
-                    label: "Message Formatting",
-                    link: "/guides/other/message-formatting",
-                  },
-                  {
-                    label: "Parsers",
-                    link: "/guides/other/parser",
-                  },
-                  {
-                    label: "Variables",
-                    link: "/guides/other/variables",
-                  },
-                  {
-                    label: "Customs",
-                    items: [
-                      {
-                        label: "Custom Functions",
-                        link: "/guides/other/custom-functions/",
-                      },
-                      {
-                        label: "Custom Events",
-                        link: "/guides/other/custom-events/",
-                      },
-                    ],
-                    collapsed: true,
-                  },
-                  {
-                    label: "Hosting",
-                    items: [
-                      {
-                        label: "Using Hosting Services",
-                        link: "/guides/other/hosting/hosting-service/",
-                      },
-                      {
-                        label: "Using Termux",
-                        link: "/guides/other/hosting/termux",
-                      },
-                    ],
-                    collapsed: true,
-                  },
-                ],
-                collapsed: true,
+                label: "Quick Start",
+                link: "/guides/quick-start",
               },
             ],
           },
           {
-            label: "Extensions",
-            icon: "puzzle",
-            link: "/extensions/",
+            label: "Features",
+            icon: "star",
+            link: "/features/",
             items: [
               {
-                label: "@aoijs",
-                items: [
-                  {
-                    label: "aoi.music",
-                    items: [
-                      {
-                        label: "Setup",
-                        link: "/extensions/aoijs/aoimusic/",
-                      },
-                      {
-                        label: "Events",
-                        link: "/extensions/aoijs/aoimusic/events",
-                      },
-                      {
-                        label: "Functions",
-                        autogenerate: {
-                          directory: "/extensions/@aoijs/aoi.music/music",
-                        },
-                        collapsed: true,
-                      },
-                    ],
-                    collapsed: false,
-                  },
-                  {
-                    label: "aoi.canvas",
-                    items: [
-                      {
-                        label: "Setup",
-                        link: "/extensions/aoijs/aoicanvas/",
-                      },
-                      {
-                        label: "Guides",
-                        autogenerate: {
-                          directory: "/extensions/@aoijs/aoi.canvas/guides",
-                        },
-                        collapsed: true,
-                      },
-                      {
-                        label: "Functions",
-                        autogenerate: {
-                          directory: "/extensions/@aoijs/aoi.canvas/functions",
-                        },
-                        collapsed: true,
-                      },
-                    ],
-                    collapsed: true,
-                  },
-                  {
-                    label: "aoi.invite",
-                    items: [
-                      {
-                        label: "Setup",
-                        link: "/extensions/aoijs/aoiinvite/",
-                      },
-                      {
-                        label: "Functions",
-                        autogenerate: {
-                          directory: "/extensions/@aoijs/aoi.invite/invite",
-                        },
-                        collapsed: true,
-                      },
-                    ],
-                    collapsed: true,
-                  },
-                ],
-                collapsed: true,
+                label: "Ticket System",
+                link: "/features/ticket-system",
+              },
+              {
+                label: "Categories & Panels",
+                link: "/features/categories-panels",
+              },
+              {
+                label: "Staff Management",
+                link: "/features/staff-management",
+              },
+              {
+                label: "Shifts",
+                link: "/features/shifts",
+              },
+              {
+                label: "Analytics",
+                link: "/features/analytics",
+              },
+              {
+                label: "Premium Features",
+                link: "/features/premium",
               },
             ],
           },
           {
-            label: "Functions",
-            icon: "list-format",
-            link: "/functions/",
+            label: "Configuration",
+            icon: "settings",
+            link: "/config/",
             items: [
               {
-                label: "Functions",
-                autogenerate: {
-                  directory: "/functions/",
-                },
-                collapsed: true,
-              },    
-            ]
+                label: "Bot Settings",
+                link: "/config/bot-settings",
+              },
+              {
+                label: "Server Settings",
+                link: "/config/server-settings",
+              },
+              {
+                label: "Customization",
+                link: "/config/customization",
+              },
+              {
+                label: "Commands",
+                link: "/config/commands",
+              },
+            ],
           },
           {
-            label: "Events",
-            icon: "rocket",
-            link: "/events/",
+            label: "API Reference",
+            icon: "code",
+            link: "/api/",
             items: [
               {
-                label: "Events",
-                autogenerate: {
-                  directory: "/events/",
-                },
-                collapsed: true,
-              }, 
-            ]
+                label: "Bot API",
+                link: "/api/bot",
+              },
+              {
+                label: "Dashboard API",
+                link: "/api/dashboard",
+              },
+              {
+                label: "Webhooks",
+                link: "/api/webhooks",
+              },
+            ],
           },
           {
-            label: "Application Command Creator",
-            icon: "forward-slash",
-            link: "/tools/slash",
+            label: "Support",
+            icon: "heart",
+            link: "/support/",
+            items: [
+              {
+                label: "FAQ",
+                link: "/support/faq",
+              },
+              {
+                label: "Troubleshooting",
+                link: "/support/troubleshooting",
+              },
+              {
+                label: "Discord Community",
+                link: "https://discord.gg/tHwtjXhUHf",
+              },
+            ],
           },
         ]),
       ],
-      title: "aoi.js",
+      title: "Ticket-v2",
       favicon: "/favicon.ico",
       logo: {
-        src: "./src/images/icon.webp",
+        src: "./src/images/icon_new.webp",
       },
       social: {
-        github: "https://github.com/aoijs/aoi.js#v6",
-        discord: "https://aoi.js.org/invite",
+        github: "https://github.com/sayrzs/Ticket-v2",
+        discord: "https://discord.gg/tHwtjXhUHf",
       },
       editLink: {
-        baseUrl: "https://github.com/aoijs/website/edit/main/",
+        baseUrl: "https://github.com/sayrzs/Ticket-v2/edit/main/website/",
       },
       components: {
         //Search: "./src/components/Page/Search.astro",
@@ -253,14 +180,14 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:site_name",
-            content: "aoi.js",
+            content: "Ticket-v2",
           },
         },
         {
           tag: "meta",
           attrs: {
             property: "theme-color",
-            content: "#89CFF0",
+            content: "#8B5CF6",
           },
         },
       ],
