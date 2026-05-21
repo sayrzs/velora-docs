@@ -29,7 +29,7 @@ Velora Tickets has three tiers. Free is fully functional for most servers — Pr
 | Bot profile customization      | No   | No      | Yes |
 | Components V2 panels           | No   | No      | Yes |
 
-[View full pricing and purchase →](/pricing)
+[Join Discord for pricing and purchase →](https://discord.gg/tHwtjXhUHf)
 
 ---
 

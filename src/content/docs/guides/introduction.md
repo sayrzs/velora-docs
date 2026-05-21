@@ -68,6 +68,6 @@ Test with a non-staff account to make sure the opening flow works as expected be
 
 ## What's Next?
 
-- [Configure categories →](/docs/categories)
-- [Set up staff roles →](/docs/staff)
-- [Customize the panel appearance →](/docs/customization)
+- [Configure categories →](/features/categories-panels)
+- [Set up staff roles →](/features/staff-management)
+- [Customize the panel appearance →](/config/customization)
