@@ -14,7 +14,6 @@ This repository is forked from [aoi.js/website](https://github.com/aoijs/website
 
 - [Documentation](https://docs.oriaxen.com)
 - [Discord](https://discord.gg/tHwtjXhUHf)
-- [Main Repository](https://github.com/sayrzs/Ticket-v2)
 
 ---
 
