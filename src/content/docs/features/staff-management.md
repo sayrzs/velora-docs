@@ -1,3 +1,7 @@
+---
+title: Staff Management
+---
+
 # Staff Management
 
 Configure who counts as staff, how claims work, and how points are tracked.

@@ -1,3 +1,7 @@
+---
+title: Categories
+---
+
 # Categories
 
 Categories define the type of ticket. Each category gets its own questions, welcome message, channel settings, and role configuration.

@@ -1,3 +1,7 @@
+---
+title: Deployment
+---
+
 # Deployment
 
 Deploy the Ticket-v2 documentation website to a separate server.

@@ -1,3 +1,7 @@
+---
+title: Getting Started
+---
+
 # Getting Started
 
 Get Velora Tickets running in your Discord server in under 5 minutes.

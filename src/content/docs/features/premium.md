@@ -1,3 +1,7 @@
+---
+title: Premium Plans
+---
+
 # Premium Plans
 
 Velora Tickets has three tiers. Free is fully functional for most servers — Premium and Pro unlock advanced features for power users.

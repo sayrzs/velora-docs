@@ -1,3 +1,7 @@
+---
+title: Ticket Panels
+---
+
 # Ticket Panels
 
 Panels are the entry point for users to open tickets. They live in a channel as a persistent embed and stay there permanently.

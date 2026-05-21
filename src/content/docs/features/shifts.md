@@ -1,3 +1,7 @@
+---
+title: Shifts
+---
+
 # Shifts
 
 Track when staff are actively on duty. Shifts record start/end times and help you understand coverage, hours worked, and staff availability.

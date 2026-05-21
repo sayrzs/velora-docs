@@ -1,3 +1,7 @@
+---
+title: Analytics
+---
+
 # Analytics *(Premium)*
 
 Track ticket volume, staff performance, and user feedback with real-time charts and exportable data.

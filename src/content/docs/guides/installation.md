@@ -1,3 +1,7 @@
+---
+title: Installation
+---
+
 # Installation
 
 Get Ticket-v2 running on your server or local machine.

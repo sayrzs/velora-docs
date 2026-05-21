@@ -1,3 +1,7 @@
+---
+title: Error Reference
+---
+
 # Error Reference
 
 All error codes the bot can return, what they mean, and how to fix them.
