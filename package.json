@@ -1,7 +1,7 @@
 {
-  "name": "ticket-v2-docs",
+  "name": "velora-tickets-docs",
   "version": "1.0.0",
-  "description": "Official Ticket-v2 Documentation - Forked from aoi.js website",
+  "description": "Official Velora Tickets Documentation - Forked from aoi.js website",
   "main": "index.js",
   "type": "module",
   "scripts": {
