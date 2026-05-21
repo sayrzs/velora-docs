@@ -29,10 +29,16 @@ Ticket-v2 is a powerful Discord ticket bot system with advanced features includi
 
 Visit [docs.oriaxen.com](https://docs.oriaxen.com) for the full documentation.
 
-## 🐛 Contribution
+## 🐛 Contributing
 
-This is a fork of the original aoi.js website. For contributions to the original project, please visit:
-[aoi.js Contribution Documentation](https://github.com/aoijs/aoi.js/blob/v6/.github/CONTRIBUTING.md)
+To contribute to the documentation:
+
+1. Fork this repository
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Edit the markdown files in `src/content/docs/`
+4. Commit your changes: `git commit -m "Add your feature"`
+5. Push to the branch: `git push origin feature/your-feature`
+6. Open a Pull Request
 
 ### 🧑‍💻 Original Contributors
 
