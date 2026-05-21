@@ -1,3 +1,7 @@
+---
+title: Bot Settings
+---
+
 # Bot Settings
 
 Configure global bot behavior and functionality.

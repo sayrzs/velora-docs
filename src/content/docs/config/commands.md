@@ -1,3 +1,7 @@
+---
+title: Commands Reference
+---
+
 # Commands Reference
 
 All slash commands available in Velora Tickets. Every command enforces permissions server-side — Discord's Integrations settings cannot override them.

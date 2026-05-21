@@ -1,3 +1,7 @@
+---
+title: Customization
+---
+
 # Customization *(Premium)*
 
 Make the bot look like it belongs to your server. All visual customization options require a Premium or Pro plan.

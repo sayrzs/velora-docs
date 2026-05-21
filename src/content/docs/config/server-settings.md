@@ -1,3 +1,7 @@
+---
+title: Server Settings
+---
+
 # Settings Reference
 
 Every configurable setting in the dashboard, explained.
