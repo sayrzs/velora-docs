@@ -19,7 +19,6 @@ export default defineConfig({
       customCss: ["./src/styles/custom.css"],
       lastUpdated: false,
       plugins: [
-        starlightLinksValidator(),
         starlightImageZoom(),
       ],
       title: "Ticket-v2",
