@@ -6,7 +6,6 @@ import react from "@astrojs/react";
 import starlight from "@astrojs/starlight";
 import starlightLinksValidator from "starlight-links-validator";
 import starlightImageZoom from "starlight-image-zoom";
-import starlightSidebarTopics from "starlight-sidebar-topics";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
 export default defineConfig({
@@ -148,12 +147,6 @@ export default defineConfig({
       editLink: {
         baseUrl: "https://github.com/sayrzs/Ticket-v2/edit/main/website/",
       },
-      components: {
-        Head: "./src/components/Page/Head.astro",
-        PageTitle: "./src/components/Page/PageTitle.astro",
-        PageSidebar: "./src/components/Page/PageSidebar.astro",
-      },
-      pagefind: true,
       head: [
         // Google Analytics, Anonymized (for the user)
         {
