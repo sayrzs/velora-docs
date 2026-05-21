@@ -149,12 +149,9 @@ export default defineConfig({
         baseUrl: "https://github.com/sayrzs/Ticket-v2/edit/main/website/",
       },
       components: {
-        //Search: "./src/components/Page/Search.astro",
         Head: "./src/components/Page/Head.astro",
         PageTitle: "./src/components/Page/PageTitle.astro",
         PageSidebar: "./src/components/Page/PageSidebar.astro",
-        Sidebar: "./src/components/Page/Sidebar.astro",
-        Pagination: "./src/components/Page/Pagination.astro",
       },
       pagefind: true,
       head: [
